@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../src/index.js"],
+  "sourcesContent": ["import { randomUUID } from \"crypto\";\r\n\r\nconsole.log(\"\uD83D\uDE80 ESBuild fonctionne parfaitement !\");\r\nconsole.log(\"UUID g\u00E9n\u00E9r\u00E9 :\", randomUUID());\r\n\r\nfunction greet(name) {\r\n  return `Hello ${name}, ton build ESBuild est OK !`;\r\n}\r\n\r\nconsole.log(greet(\"Marco\"));\r\n"],
+  "mappings": ";AAAA,SAAS,kBAAkB;AAE3B,QAAQ,IAAI,6CAAsC;AAClD,QAAQ,IAAI,0BAAiB,WAAW,CAAC;AAEzC,SAAS,MAAM,MAAM;AACnB,SAAO,SAAS,IAAI;AACtB;AAEA,QAAQ,IAAI,MAAM,OAAO,CAAC;",
+  "names": []
+}
